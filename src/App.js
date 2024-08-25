@@ -14,6 +14,7 @@ class App extends React.Component {
         this.assignNewQuoteIndex = this.assignNewQuoteIndex.bind(this);
         this.generateNewQuoteIndex = this.generateNewQuoteIndex.bind(this);
     }
+
     componentDidMount() {
         fetch('https://gist.githubusercontent.com/natebass/b0a548425a73bdf8ea5c618149fe1fce/raw/f4231cd5961f026264bb6bb3a6c41671b044f1f4/quotes.json')
             .then(response => response.json())
@@ -50,13 +51,14 @@ class App extends React.Component {
                 height: '100vh',
                 alignItems: 'center',
                 justifyContent: 'center',
+                backgroundColor: this.state.bgColor
             }}
                   id="quote-box" container >
                 <Grid xs={3} lg={3} item>
                     {
                         this.selectedQuote ?
                             <QuoteMachine selectedQuote={this.selectedQuote}
-                                          assignNewQuoteIndex={this.assignNewQuoteIndex}/> : null
+                                          assignNewQuoteIndex={this.assignNewQuoteIndex}/>: null
                     }
                 </Grid>
             </Grid>
