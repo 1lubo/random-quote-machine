@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/surprise-box.png" width="100" />
+  <img src="public/shuffle.png" width="100" />
 </p>
 <p align="center">
     <h1 align="center">RANDOM-QUOTE-MACHINE</h1>
@@ -144,7 +144,7 @@ This project is protected under the [Unlicense](https://unlicense.org) License. 
 ##  Acknowledgments
 
 - Thank you to [freeCodeCamp](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine) for the inspiration.
-- Thank you to [noomtah](https://www.flaticon.com/free-icons/random) for the random icon.
+- Thank you to [Dewi Sari](https://www.flaticon.com/free-icon/shuffle_10152448?term=random&page=1&position=45&origin=search&related_id=10152448) for the shuffle icon.
 
 [**Return**](#quick-links)
 
